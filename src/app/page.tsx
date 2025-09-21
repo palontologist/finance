@@ -172,7 +172,7 @@ export default function Page() {
 
       {/* Hero Section */}
       <section
-        className="pt-32 pb-20 px-6 relative overflow-hidden"
+        className="pt-24 md:pt-32 pb-16 md:pb-20 px-4 md:px-6 relative overflow-hidden"
         data-oid="u4a-qw1">
 
         <div
@@ -182,7 +182,7 @@ export default function Page() {
 
         <div className="container mx-auto relative z-10" data-oid="48gkddl">
           <div
-            className="grid lg:grid-cols-2 gap-16 items-center"
+            className="grid lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center"
             data-oid="7bd:b74">
 
             <div className="space-y-8" data-oid="_roqq70">
@@ -195,7 +195,7 @@ export default function Page() {
                   AI-Powered Financial Intelligence
                 </div>
                 <h1
-                  className="text-6xl md:text-8xl font-bold leading-tight text-white"
+                  className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white"
                   data-oid="k4nb607">
 
                   Revolutionize Your
@@ -207,7 +207,7 @@ export default function Page() {
                   </span>
                 </h1>
                 <p
-                  className="text-xl text-gray-300 leading-relaxed max-w-2xl"
+                  className="text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl"
                   data-oid="avzcw09">
 
                   Transform your business finances with cutting-edge AI
@@ -221,17 +221,17 @@ export default function Page() {
                 data-oid="3.0gq1x">
 
                 <button
-                  className="bg-gradient-to-r from-purple-500 to-cyan-500 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-purple-600 hover:to-cyan-600 transition-all duration-300 shadow-xl flex items-center justify-center group"
+                  className="bg-gradient-to-r from-purple-500 to-cyan-500 text-white px-6 md:px-8 py-3 md:py-4 rounded-xl text-base md:text-lg font-semibold hover:from-purple-600 hover:to-cyan-600 transition-all duration-300 shadow-xl flex items-center justify-center group"
                   data-oid="lvwzqam">
 
                   Start Your Transformation
                   <ArrowRight
-                    className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"
+                    className="ml-2 w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform"
                     data-oid="pst4qcu" />
 
                 </button>
                 <button
-                  className="border border-white/20 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white/5 transition-all duration-300"
+                  className="border border-white/20 text-white px-6 md:px-8 py-3 md:py-4 rounded-xl text-base md:text-lg font-semibold hover:bg-white/5 transition-all duration-300"
                   data-oid="k4did:6">
 
                   Watch Demo
@@ -239,39 +239,39 @@ export default function Page() {
               </div>
 
               <div
-                className="flex items-center space-x-12 pt-8"
+                className="flex flex-wrap items-center justify-center lg:justify-start gap-6 md:gap-8 lg:gap-12 pt-8"
                 data-oid="c2kdr5y">
 
                 <div className="text-center" data-oid="n-aefps">
                   <div
-                    className="text-4xl font-bold text-purple-400"
+                    className="text-2xl md:text-3xl font-bold text-purple-400"
                     data-oid="oefo.gj">
 
                     500+
                   </div>
-                  <div className="text-sm text-gray-400" data-oid=":b-_9xh">
+                  <div className="text-xs md:text-sm text-gray-400" data-oid=":b-_9xh">
                     Businesses Transformed
                   </div>
                 </div>
                 <div className="text-center" data-oid="tt6rfvf">
                   <div
-                    className="text-4xl font-bold text-cyan-400"
+                    className="text-2xl md:text-3xl font-bold text-cyan-400"
                     data-oid="sd9aoev">
 
                     $2.5M
                   </div>
-                  <div className="text-sm text-gray-400" data-oid="ah9aajx">
+                  <div className="text-xs md:text-sm text-gray-400" data-oid="ah9aajx">
                     Average Savings
                   </div>
                 </div>
                 <div className="text-center" data-oid="wj145xe">
                   <div
-                    className="text-4xl font-bold text-green-400"
+                    className="text-2xl md:text-3xl font-bold text-green-400"
                     data-oid="dcfxcgf">
 
                     98%
                   </div>
-                  <div className="text-sm text-gray-400" data-oid="irwk.oa">
+                  <div className="text-xs md:text-sm text-gray-400" data-oid="irwk.oa">
                     Client Satisfaction
                   </div>
                 </div>
@@ -418,7 +418,7 @@ export default function Page() {
               Our Expertise
             </div>
             <h2
-              className="text-5xl md:text-6xl font-bold text-white"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold text-white"
               data-oid="gdld82z">
 
               AI-Powered Financial Solutions
@@ -528,7 +528,7 @@ export default function Page() {
               data-oid="d9px4.v">
 
               <h2
-                className="text-5xl md:text-6xl font-bold text-white"
+                className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center"
                 data-oid="kld0ly2">
 
                 Ready to Transform Your Financial Operations?
